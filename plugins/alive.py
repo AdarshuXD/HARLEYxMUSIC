@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝗥𝗲𝗽𝗼", url=f"https://telegra.ph/Harley-Assistant-07-21")
+                        text="𝗥𝗲𝗽𝗼", url=f"https://t.me/telegra.ph/Harley-Assistant-07-21"),
                         InlineKeyboardButton(text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"https://t.me/{SUPPORT_CHANNEL}"),
                       InlineKeyboardButton(text="𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[

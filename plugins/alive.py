@@ -33,21 +33,21 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
+        photo=f"https://te.legra.ph/file/3f22c82379ea73b4a7967.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+💥 𝐇𝐞𝐲𝐚, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
+𝐁𝐨𝐭 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 ...
 ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
+                        text="𝗥𝗲𝗽𝗼", url=f"https://"https://https://telegra.ph/Harley-Assistant-07-21")
+                        InlineKeyboardButton(text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="𝗢𝘄𝗻𝗲𝗿", url=f"https://t.me/{OWNER_USERNAME}")
                 ]
                 
            ]
@@ -58,13 +58,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "venomop"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://te.legra.ph/file/ff99026a2656ca047d627.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "𝗝𝗼𝗶𝗻 𝗯𝗮𝗯𝘆", url=f"https://t.me/{SUPPORT_GROUP}")
                 ]
             ]
         ),
@@ -74,13 +74,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
+        photo=f"https://te.legra.ph/file/3f22c82379ea73b4a7967.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                        "𝗥𝗲𝗽𝗼", url=f"https://https://telegra.ph/Harley-Assistant-07-21")
                 ]
             ]
         ),
